@@ -30,7 +30,8 @@ Funciones de las propiedades de CSS más usadas
 Animation ---> https://www.w3schools.com/css/css3_animations.asp
 	  ---> https://developer.mozilla.org/es/docs/Web/CSS/CSS_Animations
 	  ---> https://css-tricks.com/almanac/properties/a/animation/
-Clase 8
+Clase 8 Arquitecturas CSS
+
 Durante el curso vamos a trabajar con BEM. Puedes profundizar un poco más en cada una de ellas con estos artículos:
 
 👉 Metodología CSS: Object Oriented CSS (OOCSS)
@@ -52,3 +53,35 @@ https://uxdesign.cc/atomic-design-how-to-design-systems-of-components-ab41f24f26
 👉 Paradigmas: Diseño atómico, Diseño Procedural y DRY
 https://platzi.com/clases/1420-sistemas-diseno/15010-paradigmas/
 
+OOCSS ---> https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/
+BEM ---> http://getbem.com/introduction/
+Home - Scalable and Modular Architecture for CSS ---> http://smacss.com/
+ITCSS: Scalable and Maintainable CSS Architecture -XFive ---> https://www.xfive.co/blog/itcss-scalable maintainable-css-architecture/
+Atomic Design ---> http://bradfrost.com/blog/post/atomic-web-design/
+
+Clase 9 
+Descargar gratis iconos, música, fotos, vectores ---> https://iconos8.es/
+A Complete Guide to Flexbox | CSS-Tricks ---> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Google Fonts ---> https://fonts.google.com/
+
+Clase 11
+Diferencia entre Div y Section:
+Ambos generan un contenedor de tipo caja y su comportamiento es igual, el section es una etiqueta de html 5 y semanticamente indica que es una sección de tu sitio o página web, por otro lado div solo es un contenedor que puede ser usado para maquetar cualquier elemento.
+
+El ideal es usar la etiqueta section para separar secciones de tu página como una parte de noticias o novedades.
+
+Clase 12 
+Free stock photos · Pexels ---> https://www.pexels.com/
+A Complete Guide to Flexbox | CSS-Tricks ---> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Flexbox Froggy ---> https://flexboxfroggy.com/#es
+Basic concepts of flexbox ---> https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+Propiedades de Flexbox ---> https://platzi.com/clases/1350-html5-css3/13369-propiedades-de-flexbox/
+Flexbox vs CSS Grid: ¿Cuál es la Diferencia? ---> https://platzi.com/blog/flexbox-vs-css-grid-cual-es-la-diferencia/
+
+Clase 13
+A Complete Guide to Grid | CSS-Tricks ---> https://css-tricks.com/snippets/css/complete-guide-grid/
+grid - CSS: Cascading Style Sheets | MDN ---> https://developer.mozilla.org/en-US/docs/Web/CSS/grid
+Web Design Experiments by Jen Simmons ---> https://labs.jensimmons.com/
+Layout Land - YouTube ---> https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag
+Grid Garden - A game for learning CSS grid layout ---> https://cssgridgarden.com/#es
+Curso de CSS Grid Layout | Materiales ---> https://platzi.com/clases/css-grid-layout/
