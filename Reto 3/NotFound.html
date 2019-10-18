@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet" />
+  <!--Title-->
+  <title>Not found</title>
+</head>
+<style>
+body{
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+}
+.header{
+    align-items: center;
+    background: #293462;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+}
+.header__img{
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.NotFound__container{
+  background: linear-gradient(#293462,#00818a);
+  color:white;
+  width: 100%;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.NotFound__container--error {
+  font-size: 60px;
+  margin: 0px;
+}
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+.pulse{
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+.NotFound__container--mensaje {
+  font-size: 40px;
+}
+.footer {
+  background-color: #00818a;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.footer a {
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+</style>
+<body>
+  <header class="header">
+    <img class="header__img" src="./imagenes/logo-platzi-video.png" alt="Platzi Logo">
+  </header>
+  <section class="NotFound">
+    <div class="NotFound__container">
+        <p class="NotFound__container--error animated pulse">404</p>
+        <p class="NotFound__container--mensaje">Página no encontrada</p>
+    </div>
+  </section>
+</body>
+<script>
+ https://daneden.github.io/animate.css/
+</script>
+<footer class= "footer">
+    <a href="/">Términos y condiciones</a>
+    <a href="/">Declaración de privacidad</a>
+    <a href="/">Centro de ayuda</a>
+</footer>
+  
+</html>
